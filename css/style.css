@@ -136,17 +136,30 @@ float: left;
   
   
 }
+@media only screen and (min-width: 500px){
+  .masthead-heading2{
+    display: none;
+  }
+}
 @media only screen and (max-width: 500px){
+  .masthead{
+    margin-bottom: 1em;
+  }
   .masthead-intro{
     font-size: 2em;
-    margin-left: auto;
+    margin:auto;
+    float:none;
     text-align: center;
+  }
+  .masthead-heading{
+    display:none;
   }
   .background{
     display:none;
   }
   .introduction{
     margin: auto;
+    padding-top: 0;
   }
   .introduction > h2{
     text-align: center
