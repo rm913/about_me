@@ -1,0 +1,192 @@
+
+/*Body*/
+body{
+
+}
+/* Header */
+.masthead {
+	background-size: cover;
+  padding: 7em 0;
+  background-color: #000;
+
+ 
+}
+.masthead-intro, .masthead-heading{
+  text-align: center;
+  font-size: 3em;
+
+  
+}
+.masthead-intro {
+  margin-bottom: 0.1em;
+  font-family:'Coming Soon', cursive;
+  float: left;
+  margin-left: 12em;
+  color: #FFFFFF;
+  
+}
+.masthead img{
+
+}
+.clear {
+  clear: both;
+}
+.masthead-heading {
+  margin-top: -0.2em;
+  margin-left: 2em;
+  float: left;
+}
+
+/*Introduction*/
+.introduction {
+font-family: 'Coming Soon', cursive;
+margin-left: 11em;
+  margin-right: 10em;
+    padding-top: 10em;
+  
+
+}
+.introduction h2{
+  margin-top: 5em;
+  
+
+}
+.intro-p{
+  float: left;
+  max-width: 40em;
+  background-color: #C9DA3B;
+  padding: 2em;
+
+ 
+}
+.background{
+  float: right;
+  margin-right: 7em;
+  margin-top: -5em;
+  height: 23em;
+  width: 15em;
+}
+
+/* Where I'm From */
+
+.location {
+
+font-family: 'Coming Soon', cursive;
+
+ 
+}
+.location h2{
+  float: right;
+  margin-right: 21.5em;
+}
+ .location p{
+  float: right;
+  margin-right: 10em;
+   width: 30em;
+   background-color:#C03E3E;
+   padding: 2em;
+}
+.dc{
+  float: left;
+  margin-left: 15em;
+  width: 23em;
+  height: 14em;
+  margin-top: 4em;
+}
+
+
+/*More About Me */
+
+.more { 
+margin-left: 16em;
+width: 50em;
+font-family: 'Coming Soon', cursive;
+max-width: 38em;
+margin-top: 2em;
+float: left;
+
+}
+.hobbies{
+  background-color: #359182;
+  padding: 2em;
+}
+.saxophone{
+  float: right;
+  margin-top: -15em;
+}
+
+/* Footer */
+
+.content-footer {
+  text-align: center;
+  background-color: #000;
+  padding-top: 3em;
+  padding-bottom: 2em;
+  font-family: 'Coming Soon', cursive;
+  color: #FFFFFF;
+  
+}
+.content-footer a{
+  color: #FFFFFF;
+}
+
+.social >li{
+  display: inline-block;
+  text-align: center;
+  
+  
+}
+@media only screen and (max-width: 500px){
+  .masthead-intro{
+    font-size: 2em;
+    margin-left: auto;
+    text-align: center;
+  }
+  .background{
+    display:none;
+  }
+  .introduction{
+    margin: auto;
+  }
+  .introduction > h2{
+    text-align: center
+  }
+  .location h2{
+    float: none;
+    margin: 1.5em auto;
+  }
+  .location p {
+    margin-right: 0;
+    margin: auto;
+    width: auto;
+  }
+  .dc{
+    display:none;
+  }
+  .location{
+    margin: auto
+      text-align: center;
+  }
+  .location > h2{
+    text-align:center;
+  }
+  .more{
+    margin:auto auto 1.5em auto;
+    text-align: center;
+    width: auto;
+  }
+  .more h2{
+    text-align:center;
+  }
+  .saxophone{
+    display:none;
+  }
+  .hobbies{
+    width: auto;
+    margin: auto;
+  }
+}
+
+
+
+
